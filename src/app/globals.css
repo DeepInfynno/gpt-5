@@ -1,8 +1,11 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #070815; /* deep tech blue */
+  --foreground: #e5e7eb; /* light gray */
+  --accent-1: #6366f1; /* indigo */
+  --accent-2: #8b5cf6; /* purple */
+  --accent-3: #06b6d4; /* cyan */
 }
 
 @theme inline {
@@ -12,15 +15,78 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+/* We design primarily for dark theme aesthetics */
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), system-ui, -apple-system, Segoe UI,
+    Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  overflow-x: hidden;
+  cursor: none !important; /* Hide default cursor */
+}
+
+/* Hide cursor on all elements */
+*,
+*:before,
+*:after {
+  cursor: none !important;
+}
+
+/* Hide cursor on specific interactive elements */
+a,
+button,
+input,
+textarea,
+select,
+[role="button"],
+[tabindex],
+.cursor-pointer,
+div,
+span,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+img,
+svg {
+  cursor: none !important;
+}
+
+/* Override any potential cursor styles */
+[class*="cursor"],
+[style*="cursor"] {
+  cursor: none !important;
+}
+
+/* Lenis handles smooth scrolling */
+html {
+  scroll-behavior: auto;
+  cursor: none !important;
+}
+
+/* Ensure no cursor on any element */
+html *,
+html *:hover,
+html *:focus,
+html *:active {
+  cursor: none !important;
+}
+
+/* Utility: container width */
+.container {
+  max-width: 1280px;
+}
+
+/* Hide scrollbars while maintaining scroll functionality */
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Chrome, Safari and Opera */
 }
