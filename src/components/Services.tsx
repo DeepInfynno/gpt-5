@@ -2,44 +2,44 @@
 
 import { motion } from "framer-motion";
 import {
+  FaCode,
+  FaMobile,
+  FaPaintbrush,
   FaCloud,
   FaBrain,
-  FaCode,
-  FaLock,
-  FaRocket,
-  FaCubes,
+  FaGithub,
 } from "react-icons/fa6";
 
 const services = [
   {
+    icon: FaCode,
+    title: "Web Development",
+    text: "Custom web development using advanced technologies. Backend: NodeJS, PHP-based Laravel frameworks. Frontend: ReactJS, VueJS, TailwindCSS, HTML5, CSS3.",
+  },
+  {
+    icon: FaMobile,
+    title: "Mobile App Development",
+    text: "React Native mobile app development for Android & iOS. Hybrid mobile apps, UI/UX design, app maintenance, and team augmentation services.",
+  },
+  {
+    icon: FaPaintbrush,
+    title: "UI/UX Design",
+    text: "Beautiful web designs and templates tailored to client's business needs. Using Figma, Photoshop, XD, and Illustrator for intuitive user experiences.",
+  },
+  {
     icon: FaCloud,
-    title: "Cloud & Platform",
-    text: "Design, migrate and operate cloud-native stacks on AWS, Azure, and GCP.",
+    title: "DevOps / Cloud",
+    text: "DevOps on AWS, CI/CD Pipeline, Process Automation, Cloud Migration. Leveraging AWS, Google Cloud, Firebase, Docker, Microservices, Kubernetes.",
   },
   {
     icon: FaBrain,
-    title: "AI & Data",
-    text: "LLM apps, MLOps, vector search, analytics pipelines and real-time insights.",
+    title: "AI / ML Development",
+    text: "Artificial Intelligence development with improved customer experience, personalized recommendations, increased automation, and predictive analysis using Python, Django.",
   },
   {
-    icon: FaCode,
-    title: "Product Engineering",
-    text: "Type-safe frontends, resilient backends, mobile and edge with CI/CD built-in.",
-  },
-  {
-    icon: FaLock,
-    title: "Security & Compliance",
-    text: "Zero-trust, IAM, SOC2-ready workflows, secrets & policy automation.",
-  },
-  {
-    icon: FaRocket,
-    title: "DevEx & SRE",
-    text: "Developer portals, golden paths, observability and performance tuning.",
-  },
-  {
-    icon: FaCubes,
-    title: "Microservices & APIs",
-    text: "Event-driven systems, GraphQL/gRPC, contract testing and reliability engineering.",
+    icon: FaGithub,
+    title: "Open Source",
+    text: "Active contributors to open-source community. Enhancing Laravel and TailwindCSS packages, submitting pull requests, and creating educational content.",
   },
 ];
 
@@ -49,10 +49,12 @@ export default function Services() {
       <div className="mx-auto max-w-7xl px-6 md:px-12 lg:px-16">
         <div className="mb-10 text-center">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold tracking-tight text-white">
-            What we do
+            Our Comprehensive Services
           </h2>
           <p className="mt-4 text-white/70 max-w-2xl mx-auto">
-            Impact-first services for modern software, cloud and AI.
+            We provide a wide range of digital services to meet the various
+            needs of startups and enterprise businesses using advanced
+            technologies.
           </p>
         </div>
 

@@ -5,49 +5,49 @@ import { motion, useScroll, useTransform } from "framer-motion";
 
 const cases = [
   {
-    title: "AI Sales Copilot",
-    text: "LLM agent that automates prep and follow‑ups for enterprise SDR teams.",
-    tag: "AI/LLM",
+    title: "Tax Notice Compliance",
+    text: "Comprehensive tax compliance platform for businesses to manage tax notices and regulatory requirements efficiently.",
+    tag: "Finance",
   },
   {
-    title: "Cloud Cost Optimizer",
-    text: "FinOps dashboards and policy as code that cut spend by 28%.",
-    tag: "Cloud",
+    title: "KPI Mystery Shopping",
+    text: "Advanced mystery shopping platform for retail businesses to monitor and improve customer service quality.",
+    tag: "Mystery Shopping",
   },
   {
-    title: "Real‑time Fraud Edge",
-    text: "Streaming analytics on the edge with sub‑50ms decisions.",
-    tag: "Data/Edge",
+    title: "MedEntry",
+    text: "Educational technology platform designed for medical entrance exam preparation and student assessment.",
+    tag: "EdTech",
   },
   {
-    title: "Dev Portal & Golden Paths",
-    text: "Accelerated onboarding and paved roads for 120+ microservices.",
-    tag: "DevEx",
+    title: "Guest Brief",
+    text: "Hospitality management system streamlining guest communication and service delivery for hotels and resorts.",
+    tag: "Hospitality",
   },
   {
-    title: "Smart IoT Platform",
-    text: "Edge computing solution managing 50K+ devices with real‑time analytics.",
-    tag: "IoT/Edge",
+    title: "FMT News Platform",
+    text: "Modern news and media platform delivering real-time content management and publishing capabilities.",
+    tag: "News & Media",
   },
   {
-    title: "Blockchain Trading Bot",
-    text: "Automated DeFi arbitrage system with MEV protection and yield optimization.",
-    tag: "Web3/DeFi",
+    title: "Linkko Advertising",
+    text: "Digital advertising platform connecting brands with their target audience through innovative marketing solutions.",
+    tag: "Advertising",
   },
   {
-    title: "Video Streaming CDN",
-    text: "Global content delivery network handling 10M+ concurrent streams.",
-    tag: "Media/CDN",
+    title: "TailwindTap Components",
+    text: "Free open-source starter components & templates in Plain HTML, React, VueJs & Laravel for SaaS and landing pages.",
+    tag: "Open Source",
   },
   {
-    title: "ML Recommendation Engine",
-    text: "Personalization system increasing conversion rates by 35% across e‑commerce.",
-    tag: "ML/Personalization",
+    title: "HRMS Platform",
+    text: "Task management system organizing projects, planning, and delivery through timeline management for teams.",
+    tag: "Enterprise",
   },
   {
-    title: "Cybersecurity SOC Platform",
-    text: "AI‑powered security operations center with automated threat response.",
-    tag: "Security/AI",
+    title: "AI Title Generator",
+    text: "AI-powered tagline generator producing catchy and memorable phrases using natural language processing algorithms.",
+    tag: "AI/ML",
   },
 ];
 
@@ -59,7 +59,7 @@ export default function Portfolio() {
   });
 
   // Create sticky effect with right-to-left movement
-  const x = useTransform(scrollYProgress, [0, 1], ["50%", "-120%"]);
+  const x = useTransform(scrollYProgress, [0, 1], ["10%", "-90%"]);
 
   return (
     <section ref={sectionRef} id="portfolio" className="relative h-[800vh]">
@@ -68,11 +68,12 @@ export default function Portfolio() {
           <div className="mb-10 flex items-end justify-between gap-4">
             <div>
               <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold tracking-tight text-white">
-                Selected work
+                Turning Ideas into Digital Success Stories
               </h2>
               <p className="mt-4 text-white/70 max-w-2xl">
-                A snapshot of platforms and products we&apos;ve shipped with our
-                partners.
+                Recent project portfolio speaks about the quality of our work
+                and our commitment to delivering results. Take a look at some of
+                our amazing work.
               </p>
             </div>
             <a

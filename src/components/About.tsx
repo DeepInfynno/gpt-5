@@ -42,27 +42,27 @@ export default function About() {
                 variants={fadeUp}
                 className="text-3xl sm:text-4xl md:text-5xl font-semibold text-white tracking-tight"
               >
-                We architect platforms that scale
+                6+ Years of Excellence
               </motion.h2>
               <motion.p variants={fadeUp} className="mt-5 text-white/70">
-                From cloud-native microservices to edge AI and real-time
-                analytics, our teams ship production systems with speed and
-                rigor. We blend developer experience, platform reliability and
-                AI-first thinking to unlock compounding impact.
+                Over the years of delivering advanced solutions across various
+                industries, our team of skilled developers, designers, and
+                project managers is dedicated to your success. Our commitment to
+                quality and excellent service keeps clients returning.
               </motion.p>
               <motion.div
                 variants={fadeUp}
                 className="mt-8 grid grid-cols-2 gap-6"
               >
                 <div>
-                  <div className="text-3xl font-bold text-white">250+ </div>
+                  <div className="text-3xl font-bold text-white">75+ </div>
                   <div className="text-sm text-white/60">
-                    projects delivered
+                    projects completed
                   </div>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-white">98% </div>
-                  <div className="text-sm text-white/60">client retention</div>
+                  <div className="text-3xl font-bold text-white">50+ </div>
+                  <div className="text-sm text-white/60">satisfied clients</div>
                 </div>
               </motion.div>
             </motion.div>

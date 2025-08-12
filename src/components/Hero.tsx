@@ -91,21 +91,21 @@ export default function Hero() {
               data-hero-fade
             >
               <span className="h-2 w-2 rounded-full bg-emerald-400"></span>
-              Building the future with AI, Cloud and great DX
+              6+ Years of Excellence in Digital Solutions
             </div>
             <h1
               data-hero-fade
               className="mt-4 text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-semibold leading-tight tracking-tight text-white"
             >
-              Innovative Software. Scalable Cloud. Human‑centric AI.
+              Empowering Startups with Scalable Web and Mobile App Solutions
             </h1>
             <p
               data-hero-fade
               className="mt-5 max-w-2xl text-base sm:text-lg text-white/70"
             >
-              We design and deliver modern platforms that move fast and scale.
-              From cloud-native architectures to AI-driven products, we ship
-              outcomes.
+              Transform your ideas into powerful digital products with our
+              expert development team. We&apos;re committed to your long-term
+              success with comprehensive support and scalable architecture.
             </p>
             <div
               className="mt-8 flex flex-wrap items-center gap-4"
@@ -117,13 +117,13 @@ export default function Hero() {
               >
                 <span className="absolute inset-0 rounded-xl bg-[linear-gradient(135deg,#6366f1_0%,#8b5cf6_50%,#06b6d4_100%)]" />
                 <span className="absolute -inset-[1px] rounded-xl bg-[conic-gradient(from_180deg_at_50%_50%,#60a5fa_0deg,transparent_60deg,transparent_300deg,#a78bfa_360deg)] opacity-40 blur-sm" />
-                <span className="relative">See our work</span>
+                <span className="relative">Start Your Digital Journey</span>
               </a>
               <a
                 href="#contact"
                 className="cursor-pointer inline-flex items-center justify-center rounded-xl border border-white/15 bg-white/5 px-5 py-3 text-sm font-medium text-white/90 hover:bg-white/10"
               >
-                Talk to us
+                Get A Quote
               </a>
             </div>
           </div>

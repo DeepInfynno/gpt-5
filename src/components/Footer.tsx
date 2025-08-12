@@ -1,18 +1,25 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { FaGithub, FaLinkedin, FaXTwitter } from "react-icons/fa6";
 
 export default function Footer() {
   return (
     <footer className="border-t border-white/10 py-10">
       <div className="mx-auto max-w-7xl px-6 md:px-12 lg:px-16">
-        <div className="grid grid-cols-1 gap-10 md:grid-cols-4">
+        <div className="grid grid-cols-1 gap-10 md:grid-cols-5">
           <div>
-            <div className="text-lg font-semibold text-white">Infynno</div>
+            <Image
+              src="/infynno-logo.svg"
+              alt="Infynno Solutions"
+              width={140}
+              height={32}
+              className="text-white mb-3"
+            />
             <p className="mt-3 text-sm text-white/70 max-w-xs">
-              Innovative software, cloud, and AI solutions. We partner to ship
-              outcomes.
+              Empowering startups with scalable web and mobile app solutions.
+              Transform your ideas into powerful digital products.
             </p>
           </div>
 
@@ -35,11 +42,29 @@ export default function Footer() {
           </div>
 
           <div>
+            <div className="text-sm font-semibold text-white/80">
+              Our Offices
+            </div>
+            <div className="mt-3 space-y-4 text-sm text-white/70">
+              <div>
+                <div className="font-medium text-white/80">India</div>
+                <div>E-720 Ganesh Glory 11</div>
+                <div>Gota, Ahmedabad - 382481</div>
+              </div>
+              <div>
+                <div className="font-medium text-white/80">USA</div>
+                <div>505 Valley Brooke Rd</div>
+                <div>Venetia, PA 15367</div>
+              </div>
+            </div>
+          </div>
+
+          <div>
             <div className="text-sm font-semibold text-white/80">Contact</div>
             <ul className="mt-3 space-y-2 text-sm text-white/70">
-              <li>hello@example.com</li>
-              <li>+1 (555) 123‑4567</li>
-              <li>Remote‑first</li>
+              <li>info@infynno.com</li>
+              <li>+91 79 40031525</li>
+              <li>Get A Quote</li>
             </ul>
           </div>
 

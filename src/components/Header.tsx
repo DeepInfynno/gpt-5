@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useEffect, useState } from "react";
 
 export default function Header() {
@@ -22,11 +23,14 @@ export default function Header() {
       }`}
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 md:px-12 lg:px-16">
-        <Link
-          href="#home"
-          className="cursor-pointer text-white font-semibold tracking-tight"
-        >
-          Infynno
+        <Link href="#home" className="cursor-pointer flex items-center gap-2">
+          <Image
+            src="/infynno-logo.svg"
+            alt="Infynno Solutions"
+            width={140}
+            height={32}
+            className="text-white"
+          />
         </Link>
         <nav className="hidden gap-6 text-sm text-white/80 md:flex">
           <Link href="#about" className="cursor-pointer hover:text-white">
